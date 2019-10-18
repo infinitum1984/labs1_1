@@ -1,11 +1,11 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
-
+//test commit
 	int main()
 	{
 		double m, c, x, b;
-
+		int test=0;
 		cout << "m: ";
 		cin >> m;
 
@@ -23,7 +23,6 @@ using namespace std;
 
 		cout << "fi: " << fi << "\n";
 		cout << "eps: " << eps << "\n";
-
 		return 0;
 	}
 
