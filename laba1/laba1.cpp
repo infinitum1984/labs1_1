@@ -1,11 +1,17 @@
 #include <iostream>
 #include <math.h>
 using namespace std;
+<<<<<<< HEAD
 
 	int main()
 	{
 		double m, c, x, b;
 		
+=======
+	int main()
+	{
+		double m, c, x, b;
+>>>>>>> ebc5bbc15fc1bce68f8e2d0e6c7c7d4b031ea16a
 		cout << "m: ";
 		cin >> m;
 
