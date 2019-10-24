@@ -9,11 +9,11 @@ using namespace std;
 		double x=1.2;
 		double b=0.7;
 				
-		double A = sqrt(m * tan(x) + abs(c * sin(x)));
-		double K = m * cos(b * x + sin(x)) + (c * c * c);
+		double fi = sqrt(m * tan(x) + abs(c * sin(x)));
+		double eps = m * cos(b * x + sin(x)) + (c * c * c);
 
-		cout << "A: " << A << "\n";
-		cout << "K: " << K << "\n";
+		cout << "fi: " << fi << "\n";
+		cout << "epsilo: " << eps << "\n";
 		return 0;
 	}
 
