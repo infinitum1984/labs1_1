@@ -19,4 +19,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

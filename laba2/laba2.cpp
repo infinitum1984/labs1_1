@@ -1,34 +1,29 @@
-// LABA2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include <math.h>
 
 using namespace std;
 int main()
 {
+	
+	double x = 2.5;
+	double a = 1.1;
+	//Ставить меньшие начальные значения не имеет смысла
+	//так как при них функция не имеет решений
+	
 	const double hx = 0.5;
 	const double ha = 0.2;
 
-	double x, xmin, xmax,a;
-	cout << "xmin:";
-	cin >> xmin;
-
-	cout << "xmax:";
-	cin >> xmax;
-
-	cout << "a:";
-	cin >> a;
-
-
-	while (x <= xmax)
-	{
+	int inc = 0;
+	while (x <= 4)
+	{	
+		++inc;
 		double z = (sqrt(x - 1.5) + pow(x, a)) / (pow(x - 2.0, 1.0 / 3.0));
-		cout << "z: " << z << endl;
+		cout << "Z_"<<inc<<"= " << z <<endl;
 
 		a = a + ha;
 		x = x + hx;
-		cout << "x" << x << endl;
+		
+
 	}
 
 }

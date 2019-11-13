@@ -153,6 +153,12 @@
   <ItemGroup>
     <ClCompile Include="laba2.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_1.png" />
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_2.png" />
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_3.png" />
+    <Image Include="D:\Users\documents\nure\pro\laba2\Z_4.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
