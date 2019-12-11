@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include <math.h>
-#include <Windows.h>
+//#include <Windows.h>
 
 using namespace std;
 	
@@ -74,15 +74,15 @@ void sort_mas(double elements[], int mas_size) {
 	
 	int main()
 	{
-		SetConsoleOutputCP(1251);
-		SetConsoleCP(1251);
+		//SetConsoleOutputCP(1251);
+		//SetConsoleCP(1251);
 		int num_elements;
 		double C;
-		cout << "Ââåäèòå C: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ C: ";
 		cin >> C;
-		cout << "Ââåäèòå êîëè÷åñòâî ýëåìåíòîâ: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
 		cin >> num_elements;
-		cout << "Ââåäèòå ýëåìåíòû: ";
+		cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÑÑÐ¸Ð²: ";
 		double* p_mas = new double[num_elements];
 		for (int i = 0; i < num_elements; i++)
 		{
@@ -90,9 +90,9 @@ void sort_mas(double elements[], int mas_size) {
 
 		}
 		cout << endl;
-		cout << "Êîëè÷åñòâî ýëåìåíòâî áîëüøå C: " << get_num_more_c(C, p_mas, num_elements) << endl;
-		cout << "Ïðîèçâåäåíèå ýëåìåíòîâ: " << get_multi_elemets(p_mas, num_elements) << endl;		
-		cout << "Ïðåîáðàçîâàíûé ìàññèâ: ";
+		cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð±Ð¾Ð»ÑŒÑˆÐµ C: \t" << get_num_more_c(C, p_mas, num_elements) << endl;
+		cout << "ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: \t" << get_multi_elemets(p_mas, num_elements) << endl;		
+		cout << "Ð¢Ñ€Ð°Ð½ÑÑ„Ð¾Ñ€Ð¼Ð¸Ñ€Ð¾Ð²Ð°Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: \t";
 		trans_mas(p_mas, num_elements);
 		//sort_mas(p_mas, num_elements);
 		for (int i = 0;i < num_elements;i++) {
