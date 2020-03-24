@@ -67,7 +67,7 @@ void clear_matrix(int** mas, int n_rows) {
 int main() {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
-
+system("chcp 1251");
 	int num_rows;
 	int num_cols;
 
